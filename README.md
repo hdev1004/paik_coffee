@@ -110,8 +110,16 @@ CREATE TABLE `coffee_list` (
 git clone https://github.com/hdev1004/paik_coffee.git
 ```
 
-1. 깃 클론 받은 후 `cd /paik_coffee` 폴더 이동
+1. 깃 클론 받은 후 `cd /paik_coffee` 폴더(백엔드) 이동
 2. `npm i` 명령어 실행
-3. `cd /paik_coffee/paik_coffee` 이동 후 `npm i` 명령어 실행
+3. `cd /paik_coffee/paik_coffee` 폴더(프론트) 이동 후 `npm i` 명령어 실행
+4. 백엔드는 `npm run dev` 명령어 실행
+5. 프론트는 `npm start` 명령어 실행
+6. DB의 경우는 .env를 참고하며, dump 파일 그대로 DB에 넣으면 됩니다!
 
-작성 중..
+<br/>
+
+## Preview
+
+![React App - Chrome 2024-02-08 15-22-51](https://github.com/hdev1004/paik_coffee/assets/59737252/56ba307a-b297-4f90-a641-128cb224e078)
+
