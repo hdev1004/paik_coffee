@@ -1,0 +1,107 @@
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(32, 32, 119);
+    color: white;
+    justify-content: center;
+    height: 50px;
+
+}
+
+.title_before {
+    cursor: pointer;
+    left: 10px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    position: absolute;
+}
+
+.title_name {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.pay_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.pay_row_total {
+    display: flex;
+    flex-direction: row;
+}
+
+.pay_row div:nth-child(2) {
+    text-align: center;
+}
+
+.pay_row div:nth-child(3) {
+    text-align: center;
+}
+
+.pay_row_total div:nth-child(1) {
+    flex: 2;
+}
+
+.pay_row_total div:nth-child(2) {
+    flex: 1;
+    text-align: center;
+}
+
+.pay_row div {
+    flex:1
+
+}
+
+.bill_container {
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.285);
+}
+
+
+.backpack_container {
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 70px;
+    background-color: rgba(173, 216, 230, 0.587);
+    
+}
+
+.backpack_box {
+    text-align: center;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 90%;
+    background-color: rgb(32, 32, 119);
+    color: white;
+    
+    & > div:nth-child(1) {
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    & > div:nth-child(2) {
+        margin-bottom: 5px;
+        color: rgb(250, 216, 153);
+    }
+}
+
+.shop_container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 2px);
+}

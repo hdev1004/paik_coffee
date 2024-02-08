@@ -1,0 +1,122 @@
+.order_container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 130px);
+    overflow: auto;
+}
+
+.order_month {
+    height: 100px;
+    background-color: white;
+
+}
+
+.order_month_container {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    
+    div {
+        z-index: 200;
+        width: 34%;
+        text-align: center;
+        border-radius: 50px;
+    }
+}
+
+.order_active_0 {
+    transition: 0.3s;
+    left: 0px;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(32, 32, 119);;
+    width: 34%;
+    height: 50px;
+}
+
+
+.order_active_1 {
+    transition: 0.3s;
+    left: 34%;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(32, 32, 119);;
+    width: 34%;
+    height: 50px;
+}
+
+
+.order_active_2 {
+    transition: 0.3s;
+    left: 67%;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(32, 32, 119);
+    width: 34%;
+    height: 50px;
+}
+
+.order_active_text {
+    transition: 0.3s;
+    color: white;
+}
+
+.order_list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    color: rgb(95, 95, 95);
+}
+
+.order_box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.pay_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.pay_row_total {
+    display: flex;
+    flex-direction: row;
+}
+
+.pay_row div:nth-child(2) {
+    text-align: center;
+}
+
+.pay_row div:nth-child(3) {
+    text-align: center;
+}
+
+.pay_row_total div:nth-child(1) {
+    flex: 2;
+}
+
+.pay_row_total div:nth-child(2) {
+    flex: 1;
+    text-align: center;
+}
+
+.pay_row div {
+    flex:1
+
+}
+
+.bill_container {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    background-color: rgba(211, 211, 211, 0.285);
+}
